@@ -24,20 +24,20 @@ def getUserStatistics(user):
     print("\nNo of posted tweets: ", user.statuses_count)
     print("\n Associated url: ", user.url)
 
-#def getUserFollowers(api):
-#    print('\n Followers: ')
-#    for followers in api.followers(s):
-#        print(follower.screen_name)
+def getUserFollowers(api):
+   print('\n Followers: ')
+   for followers in api.followers(s):
+       print(follower.screen_name)
 
-#def getUserFriends(api):
-#    print("\n Friends")
-#    for friend in api.friends():
-#        print(friend.screen_name)
+def getUserFriends(api):
+   print("\n Friends")
+   for friend in api.friends():
+       print(friend.screen_name)
 
-#def getUserTweets(api):
-#    print('\n Tweets: ')
-#    for tweet in api.user_timeline():
-#        print(tweet_text)
+def getUserTweets(api):
+   print('\n Tweets: ')
+   for tweet in api.user_timeline():
+       print(tweet_text)
 
 def getUserFollowers(api):
     print('\n Followers: ')
